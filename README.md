@@ -31,6 +31,8 @@ Back in Xcode, the grant access button is no longer available, and you’ll see 
 Xcode Cloud requires an app on App Store Connect with your app’s bundle identifier. Lucky for you, Xcode can create the app without even opening a browseXcode Cloud requires an app on App Store Connect with your app’s bundle identifier. Lucky for you, Xcode can create the app without even opening a browser. Click Complete to create your app.
 <img width="908" alt="スクリーンショット_2023_01_28_17_35" src="https://user-images.githubusercontent.com/47273077/215256077-9c088a13-6bbb-422b-b14e-b2633f8c6bc6.png">
 
+Go ahead and click Start Build to kick off your very first Xcode Cloud build. Xcode Cloud immediately starts the build and switches to the build info in Xcode. Xcode Cloud also sends you an email when the build finishes.
+<img width="757" alt="スクリーンショット_2023_01_28_17_37" src="https://user-images.githubusercontent.com/47273077/215256174-d2a0aa70-3de8-4dcd-9048-59c5819254c4.png">
 
 
 
