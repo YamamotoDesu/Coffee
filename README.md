@@ -50,3 +50,5 @@ The workflow currently has an archive action in the Actions section. The test wo
 Next, add a test action using the + next to the Actions section title.
 <img width="809" alt="スクリーンショット_2023_01_29_15_49" src="https://user-images.githubusercontent.com/47273077/215310069-b30f91b2-6d78-4845-8833-60875da9f6a4.png">
 
+The last section configures which devices the tests run on. Click the + to add iPads to your workflow.
+<img width="759" alt="スクリーンショット_2023_01_29_15_52" src="https://user-images.githubusercontent.com/47273077/215310180-624f93fd-fc7f-4023-b867-ccd18bea3186.png">
