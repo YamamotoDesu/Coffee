@@ -36,4 +36,11 @@ Go ahead and click Start Build to kick off your very first Xcode Cloud build. Xc
 
 ## Creating a Workflow to Run Tests
 In the previous section, you set up a default workflow that built the project. You can now edit it to run tests instead. Right-click Default and select Edit Workflow.
+
 <img width="278" alt="スクリーンショット_2023_01_29_15_38" src="https://user-images.githubusercontent.com/47273077/215309632-912ff9c5-e48e-48d1-bd61-b25fa199ca34.png">
+
+
+Navigate to General, and change the Name to Test.
+
+<img width="912" alt="スクリーンショット_2023_01_29_15_41" src="https://user-images.githubusercontent.com/47273077/215309763-58394cd0-5147-4045-b7c1-100461a02114.png">
+
