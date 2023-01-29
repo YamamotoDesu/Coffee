@@ -58,13 +58,13 @@
 		AE47F15528D3F92D00CB3F39 /* CoffeesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeesScreen.swift; sourceTree = "<group>"; };
 		AE47F15728D3F94100CB3F39 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 		AE47F15928D3F95700CB3F39 /* CoffeeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeScreen.swift; sourceTree = "<group>"; };
-		AE4E564C28C313DE00CBF8BC /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4E564C28C313DE00CBF8BC /* YamamotoCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YamamotoCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4E564F28C313DE00CBF8BC /* CoffeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeApp.swift; sourceTree = "<group>"; };
 		AE4E565128C313DE00CBF8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE4E565328C313DF00CBF8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4E565528C313DF00CBF8BC /* Coffee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Coffee.entitlements; sourceTree = "<group>"; };
 		AE4E565728C313DF00CBF8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AE4E565D28C313DF00CBF8BC /* CoffeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE4E565D28C313DF00CBF8BC /* CoffeeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4E566728C313DF00CBF8BC /* CoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE4E566B28C313DF00CBF8BC /* CoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeUITests.swift; sourceTree = "<group>"; };
 		AE7D553828CD47850013DD60 /* CoffeeKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CoffeeKit; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		AE4E564D28C313DE00CBF8BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE4E564C28C313DE00CBF8BC /* Coffee.app */,
-				AE4E565D28C313DF00CBF8BC /* CoffeeTests.xctest */,
+				AE4E564C28C313DE00CBF8BC /* YamamotoCoffee.app */,
+				AE4E565D28C313DF00CBF8BC /* CoffeeTest.xctest */,
 				AE4E566728C313DF00CBF8BC /* CoffeeUITests.xctest */,
 			);
 			name = Products;
@@ -249,7 +249,7 @@
 				AE7D553C28CD48430013DD60 /* CoffeeKit */,
 			);
 			productName = Coffee;
-			productReference = AE4E564C28C313DE00CBF8BC /* Coffee.app */;
+			productReference = AE4E564C28C313DE00CBF8BC /* YamamotoCoffee.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AE4E565C28C313DF00CBF8BC /* CoffeeTests */ = {
@@ -267,7 +267,7 @@
 			);
 			name = CoffeeTests;
 			productName = CoffeeTests;
-			productReference = AE4E565D28C313DF00CBF8BC /* CoffeeTests.xctest */;
+			productReference = AE4E565D28C313DF00CBF8BC /* CoffeeTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		AE4E566628C313DF00CBF8BC /* CoffeeUITests */ = {
@@ -535,7 +535,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9F7BXCAFA2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -556,8 +556,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamamotoCoffee;
+				PRODUCT_NAME = YamamotoCoffee;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -577,7 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Coffee/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 9F7BXCAFA2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -598,8 +598,8 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Coffee;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yamamotoCoffee;
+				PRODUCT_NAME = YamamotoCoffee;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -623,13 +623,13 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoffeeTest;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Coffee";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YamamotoCoffee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YamamotoCoffee";
 			};
 			name = Debug;
 		};
@@ -646,7 +646,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.frothy.CoffeeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CoffeeTest;
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
