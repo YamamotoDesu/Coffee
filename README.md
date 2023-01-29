@@ -46,3 +46,7 @@ Navigate to General, and change the Name to Test.
 
 The workflow currently has an archive action in the Actions section. The test workflow only runs tests, so you can delete the archive action. Navigate to Archive – iOS and delete the action using the trash icon in the top right.
 <img width="955" alt="スクリーンショット_2023_01_29_15_47" src="https://user-images.githubusercontent.com/47273077/215309964-f83ab86f-595d-4800-a744-f21378f7fe7a.png">
+
+Next, add a test action using the + next to the Actions section title.
+<img width="809" alt="スクリーンショット_2023_01_29_15_49" src="https://user-images.githubusercontent.com/47273077/215310069-b30f91b2-6d78-4845-8833-60875da9f6a4.png">
+
